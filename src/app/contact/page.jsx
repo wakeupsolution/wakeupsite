@@ -33,7 +33,7 @@ export default function Contact() {
     });
 
     const data = await res.json();
-
+console.log("API Response:", data);
     if (data.success) {
       // 2. Trigger the modal instead of the browser alert
       setIsModalOpen(true);
