@@ -40,6 +40,7 @@ export default function Contact() {
       form.reset(); // clear form
     } else {
       alert(data.message || "Error ❌");
+      console.error("Contact form submission error:", data.error );
     }
   };
 
