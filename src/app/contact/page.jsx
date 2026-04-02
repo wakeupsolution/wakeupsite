@@ -39,8 +39,9 @@ export default function Contact() {
       setIsModalOpen(true);
       form.reset(); // clear form
     } else {
+      console.log("Error submitting form:", data);
       alert(data.message || "Error ❌");
-      console.error("Contact form submission error:", data.error );
+      
     }
   };
 
