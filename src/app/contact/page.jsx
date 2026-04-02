@@ -40,7 +40,7 @@ console.log("API Response:", data);
       form.reset(); // clear form
     } else {
       console.log("Error submitting form:", data);
-      alert(data.message || "Error ❌");
+      alert(JSON.stringify(data));
       
     }
   };
