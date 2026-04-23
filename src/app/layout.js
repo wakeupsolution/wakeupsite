@@ -7,6 +7,9 @@ export const metadata = {
   title: "WakeUp Solution - Web Development & Digital Services",
   description:
     "WakeUp Solution helps businesses grow with modern websites, scalable web applications, and digital marketing services.",
+    icons: {
+      icon: "/favicon.ico",
+    },
 };
 
 export default function RootLayout({ children }) {
