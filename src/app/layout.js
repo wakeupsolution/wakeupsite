@@ -1,7 +1,13 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton"; // 1. Import the component
+import WhatsAppButton from "@/components/WhatsAppButton";
+
+export const metadata = {
+  title: "WakeUp Solution - Web Development & Digital Services",
+  description:
+    "WakeUp Solution helps businesses grow with modern websites, scalable web applications, and digital marketing services.",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -10,8 +16,6 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
-        
-        {/* 2. Add the WhatsApp icon here so it floats on every page */}
         <WhatsAppButton />
       </body>
     </html>
