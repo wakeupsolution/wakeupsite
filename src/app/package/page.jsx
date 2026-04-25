@@ -372,7 +372,7 @@ export default function Packages() {
       </section>
 
       {/* Global CSS for hiding scrollbar on the feature lists (Light Mode) */}
-      <style dangerouslySetOption={{__html: `
+      <style dangerouslySetInnerHTML ={{__html: `
         .custom-scrollbar::-webkit-scrollbar { width: 4px; }
         .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
         .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.1); border-radius: 10px; }
