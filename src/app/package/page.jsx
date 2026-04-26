@@ -37,7 +37,8 @@ export default function Packages() {
     {
       name: "Basic Store", price: "25,000", desc: "Start selling online quickly with a functional, easy-to-manage storefront.", isPopular: false,
       features: [ "Up to 50 Products", "Premium Theme Customization", "Payment Gateway Integration", "Mobile Responsive Design", "Basic Inventory Management", "Standard Checkout Flow", "Whatsapp & Live Chat", "Basic Shipping Setup", "1 Month Free Support" ]
-    },
+    }, 
+    //
     {
       name: "Growth Store", price: "45,000", desc: "A custom-built e-commerce experience designed for scaling sales.", isPopular: true,
       features: [ "Up to 500 Products", "100% Custom UI/UX Design", "Multiple Payment Gateways", "Advanced Inventory Tracking", "Abandoned Cart Recovery", "Coupon & Discount Engine", "On-Page SEO Setup", "Customer Account Dashboard", "3 Months Free Support" ]
