@@ -25,7 +25,7 @@ export default function Packages() {
       features: [ "100% Customized Design", "Up to 15 Pages", "Free .com, .in, .co.in Domain (1 yr)", "1 Business Email", "Unlimited Storage", "Bandwidth Unlimited", "24x7 Support", "Complementary 12 months Maintenance", "Free Anti-Spam-bot Captcha", "Free Training", "Mobile Optimized", "Speed Optimized", "SSL Security Included", "SEO Friendly", "Scheduled monthly Backup", "The W3C Markup Validated", "Whatsapp Chat Integration", "Limited Plugins", "3 days Working Time", "Google Analytics - Free setup", "Google Map - Free setup" ]
     },
     {
-      name: "Premium", price: "20,000", desc: "Comprehensive build for established companies and large catalogs.", isPopular: false,
+      name: "Premium", price: "25,000", desc: "Comprehensive build for established companies and large catalogs.", isPopular: false,
       features: [ "100% Customized Design", "Up to 40 Pages", "Free .com, .in, .co.in Domain (1 yr)", "2 Business Emails", "Unlimited Storage", "Bandwidth Unlimited", "24x7 Support", "Complementary 12 months Maintenance", "Free Anti-Spam-bot Captcha", "Free Training", "Mobile Optimized", "Speed Optimized", "SSL Security Included", "SEO Friendly", "Scheduled monthly Backup", "The W3C Markup Validated", "Whatsapp Chat Integration", "Limited Plugins", "3 days Working Time", "Google Analytics - Free setup", "Google Map - Free setup" ]
     }
   ];
@@ -372,7 +372,7 @@ export default function Packages() {
       </section>
 
       {/* Global CSS for hiding scrollbar on the feature lists (Light Mode) */}
-      <style dangerouslySetOption={{__html: `
+      <style dangerouslySetInnerHTML ={{__html: `
         .custom-scrollbar::-webkit-scrollbar { width: 4px; }
         .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
         .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.1); border-radius: 10px; }
