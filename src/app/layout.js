@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-  title: "WakeUp Solution | Website Development Chennai",
+  title: "Website Development Company in Chennai | WakeUp Solution",
   description:
     "Professional website development, mobile apps, and SEO services in Chennai.",
   keywords: [
@@ -37,6 +37,12 @@ export const metadata = {
       },
     ],
   },
+  other: {
+  "geo.region": "IN-TN",
+  "geo.placename": "Chennai",
+  "geo.position": "13.0827;80.2707",
+  "ICBM": "13.0827, 80.2707",
+},
 
   alternates: {
     canonical: "https://wakeupsolution.in",
