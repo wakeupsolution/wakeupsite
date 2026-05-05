@@ -13,7 +13,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
      {
-      url: "https://wakeupsolution.in/services",
+      url: "https://wakeupsolution.in/package",
       lastModified: new Date(),
     },
      {
