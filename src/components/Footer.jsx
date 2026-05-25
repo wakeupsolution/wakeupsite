@@ -79,6 +79,7 @@ export default function Footer() {
                   <span className="w-0 overflow-hidden group-hover:w-4 transition-all duration-300 text-[#92d050] opacity-0 group-hover:opacity-100">→</span> 
                   Packages
                 </Link>
+                
               </li>
             </ul>
           </div>
