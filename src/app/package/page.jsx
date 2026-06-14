@@ -289,7 +289,7 @@ export default function Packages() {
                         </ul>
 
                         
-<Link href="/contact">
+<Link href="/clientinfo">
   <button
     className={`w-full py-3.5 rounded-xl font-bold text-sm transition-all hover:scale-105 ${
       plan.isPopular
