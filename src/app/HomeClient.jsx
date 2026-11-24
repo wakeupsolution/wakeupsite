@@ -115,7 +115,7 @@ export default function Home() {
   return (
     <div className="bg-[#f4f7fb] min-h-screen text-slate-900 font-sans overflow-hidden selection:bg-[#32a1d0]/20">
       <h1 className="sr-only">
-        Website Development, SEO & Digital Marketing Company
+Website Designing, SEO & Digital Marketing Company in Chennai | WakeUp Solution
       </h1>
       {/* =========================================
           SECTION 1: FULL-WIDTH IMAGE BANNER SLIDER

@@ -5,10 +5,10 @@ import { generatePageMetadata } from "@/lib/seo/metadata";
 
 // PACKAGE PAGE SEO
 export const metadata = generatePageMetadata({
-  title: "Website Development & SEO Packages in India",
+  title: "Website Designing & SEO Packages in India",
 
   description:
-    "Explore WakeUp Solution website development and SEO packages. Compare WakeUp Start, WakeUp Grow and WakeUp Dominate plans for business growth.",
+    "Explore WakeUp Solution website Designing and SEO packages. Compare WakeUp Start, WakeUp Grow and WakeUp Dominate plans for business growth.",
 
   path: "/package",
 });
@@ -18,10 +18,10 @@ const packageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
 
-  name: "Website Development and SEO Packages",
+  name: "Website Designing and SEO Packages",
 
   description:
-    "Explore website development and SEO service packages from WakeUp Solution.",
+    "Explore website Designing and SEO service packages from WakeUp Solution.",
 
   url: `${seoConfig.siteUrl}/package`,
 
@@ -33,7 +33,7 @@ const packageSchema = {
 
   about: {
     "@type": "Service",
-    name: "Website Development and SEO Packages",
+    name: "Website Designing and SEO Packages",
 
     provider: {
       "@type": "Organization",

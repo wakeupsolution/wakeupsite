@@ -6,10 +6,10 @@ import { generatePageMetadata } from "@/lib/seo/metadata";
 // SERVICES PAGE SEO
 export const metadata = generatePageMetadata({
   title:
-    "Website Development, Mobile Apps, SEO & Digital Marketing Services",
+    "Website Designing, Mobile Apps, SEO & Digital Marketing Services",
 
   description:
-    "Explore WakeUp Solution services including business website development, Android and iOS apps, Google and local SEO, social media marketing, Google Ads and e-commerce website solutions.",
+    "Explore WakeUp Solution services including business website Designing, Android and iOS apps, Google and local SEO, social media marketing, Google Ads and e-commerce website solutions.",
 
   path: "/services",
 });
@@ -19,10 +19,10 @@ const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
 
-  name: "Website Development and Digital Marketing Services",
+  name: "Website Designing and Digital Marketing Services",
 
   description:
-    "Explore website development, mobile applications, SEO, digital marketing and e-commerce services.",
+    "Explore website Designing, mobile applications, SEO, digital marketing and e-commerce services.",
 
   url: `${seoConfig.siteUrl}/services`,
 
@@ -39,12 +39,12 @@ const servicesSchema = {
       {
         "@type": "ListItem",
         position: 1,
-        name: "Website Design & Development",
+        name: "Website Design & Designing",
       },
       {
         "@type": "ListItem",
         position: 2,
-        name: "Mobile App Development",
+        name: "Mobile App Designing",
       },
       {
         "@type": "ListItem",
@@ -79,3 +79,5 @@ export default function ServicesPage() {
     </>
   );
 }
+
+

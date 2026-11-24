@@ -5,10 +5,10 @@ import { generatePageMetadata } from "@/lib/seo/metadata";
 
 // HOME PAGE SEO
 export const metadata = generatePageMetadata({
-  title: "Website Development, SEO & Digital Marketing Company",
+  title: "Website Designing, SEO & Digital Marketing Company",
 
   description:
-    "WakeUp Solution provides professional website development, WordPress and Next.js solutions, SEO, digital marketing, e-commerce and lead generation services.",
+    "WakeUp Solution provides professional website Designing, WordPress and Next.js solutions, SEO, digital marketing, e-commerce and lead generation services.",
 
   path: "/",
 });
