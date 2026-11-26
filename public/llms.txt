@@ -1,0 +1,46 @@
+# WakeUp Solution
+
+> WakeUp Solution is an IT services company
+> providing website development, digital marketing,
+> SEO and e-commerce solutions.
+
+Website: https://www.wakeupsolution.in/
+
+## About Us
+
+WakeUp Solution provides digital solutions
+for businesses looking to establish and grow
+their online presence.
+
+## Our Services
+
+- Website Development
+- WordPress Development
+- Next.js Development
+- E-commerce Development
+- Mobile Application Development
+- Search Engine Optimization (SEO)
+- Digital Marketing
+- Website Maintenance
+
+## Important Pages
+
+- Home: https://www.wakeupsolution.in/
+- About: https://www.wakeupsolution.in/about
+- Services: https://www.wakeupsolution.in/services
+- Contact: https://www.wakeupsolution.in/contact
+- Package: https://www.wakeupsolution.in/package
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Next.js
+- Node.js
+- WordPress
+
+## Contact
+
+Website: https://www.wakeupsolution.in/
